@@ -29,13 +29,13 @@ $data = array(
 		)
 	);
 
-post_without_wait('http://localhost/php-async/write_file.php', $data[0]);
-post_without_wait('http://localhost/php-async/write_file.php', $data[1]);
-post_without_wait('http://localhost/php-async/write_file.php', $data[2]);
-post_without_wait('http://localhost/php-async/write_file.php', $data[3]);
-post_without_wait('http://localhost/php-async/write_file.php', $data[4]);
+post_without_wait('https://sistema.tagplus.com.br/scripts/vendedor.php/write_file.php', $data[0]);
+post_without_wait('https://sistema.tagplus.com.br/scripts/vendedor.php/write_file.php', $data[1]);
+post_without_wait('https://sistema.tagplus.com.br/scripts/vendedor.php/write_file.php', $data[2]);
+post_without_wait('https://sistema.tagplus.com.br/scripts/vendedor.php/write_file.php', $data[3]);
+post_without_wait('https://sistema.tagplus.com.br/scripts/vendedor.php/write_file.php', $data[4]);
 
-post_without_wait('http://localhost/php-async/write_file.php', $data[5]);
+post_without_wait('https://sistema.tagplus.com.br/scripts/vendedor.php/write_file.php', $data[5]);
 
 echo 'End test';
 
